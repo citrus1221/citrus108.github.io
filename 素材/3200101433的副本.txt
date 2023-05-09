@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>蔡禾昕</title>
+
+        <style>
+     h1{
+        text-align:left;
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+    }
+    h2{
+        text-align:center;
+        color: rgb(0, 211, 25);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+    form{
+        text-align: center;
+    }
+    p{ 
+        text-align:center;
+        color: rgb(0, 0, 0);
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    #p123{
+        font-family: Georgia, 'Times New Roman', Times, serif;   
+    }
+    #p234{
+        text-align: center;
+    }
+     </style>
+    </head>
+
+    <body style="background-color:#ffffff">
+        <header style="background-color:rgb(139, 255, 145);" title="你好你好">
+            <h1>｜2023.03.20<br>｜基本信息｜Personal
+                Information</h1>
+        </header>
+
+        <p style="font-size: 20px;text-align: center;color: grey;">联系方式：chx1183895426@gmail.com</p>
+       
+       
+        <form>
+            <input type="text" placeholder="姓名"list="xxx">
+            <datalist id="xxx">
+                <option value="123">
+                <option value="456">
+                <option value="789">
+              </datalist>
+            </input type="submit">
+           
+            <input type="text" placeholder="学号"list="browsers">
+            <datalist id="browsers">
+                <option value="3200101433">
+                <option value="3200xxxxxx">
+              </datalist>
+            </input type="submit">
+            
+            <textarea>----在此留言----
+            </textarea>
+            <button onclick="alert('提交hhhh')">提交表单</button>
+        </form>
+
+        <p style="font-size:100px;text-align:center">&#127793;</p>
+
+
+        <section>
+       
+
+            <section>
+                <h2>基本信息</h2>
+                <p>姓名：蔡禾昕<br>年龄：20<br>生日：2002.10.08</p>
+                <p>辽宁大连人</p>
+                <h2>｜</h2>
+                <p>现就读于浙江大学艺术与考古学院<br>视觉传达设计2001班</p>
+                <h2>｜<br>｜</h2>
+                <h2>兴趣爱好</h2>
+                <p>书籍/电影/游戏/拍照<br>平面设计/画速写/网上冲浪/…</p>
+                <h2>｜</h2>
+                <h2>MBTI</h2>
+                <p>infp(仅作参考)</p>
+
+            </section>
+
+            <section>
+                <p style="font-size:100px;text-align:left;background-color:
+                    rgb(139, 255, 145);">
+                 (o`-`o)
+                </p>
+            </section>
+
+            <section>
+                <h2>Basic Imformation</h2>
+                <p id="p123">Name：Hexin Cai<br>Age：20<br>Birthday：2002.10.08</p>
+                <p id="p123">from Dalian, Liaoning</p>
+                <h2>｜</h2>
+                <p id="p123">Now studying in Zhejiang University <br>college of art
+                    and archaeology <br> visual communication design class 2001
+                </p>
+                <h2>｜<br>｜</h2>
+                <h2>Hobbies</h2>
+                <p id="p123">book/movie/game/photographing <br> graphic
+                    design/sketching/surfing the internet/...</p>
+                <h2>｜</h2>
+                <h2>MBTI</h2>
+                <p id="p123">infp(for reference only)</p>
+            </section>
+        </section>
+
+        <p></p>
+
+        <p style="font-size:40px;text-align:center">&#127793;</p>
+        <p style="font-size:100px;text-align:center;background-color: rgb(139, 255, 145);">&#128519;&#128519;&#128519;</p>
+        
+
+
+        <p id="p234">
+        </p>
+
+        <div id="footer"
+            style="background-color:#ededed;clear:both;text-align:center;">
+            <p style="color: green;text-align: center;font-size: 15px;"> 
+                版权 ©.com
+            </p>
+        </div>
+        <script>
+        alert("欢迎来到我的主页～");
+    </script>
+    </body>
+</html>
